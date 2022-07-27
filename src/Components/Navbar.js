@@ -1,8 +1,11 @@
+import "../styles/Nav.css"
+import "../styles/Nav_media.css"
+
 export default function Navbar(){
 
   return(
     <nav>
-      <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum iste esse facilis!</h1>
+      
     </nav>
   )
 }
