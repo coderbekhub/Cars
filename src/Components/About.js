@@ -4,6 +4,7 @@ import "../styles/About.css"
 export default function About(){
 
   return(
+    <div className="container">
     <div className="about-info">
       <div className="about-info__cars">
         <h1 className="about-tittle">Выберите то, что нужно</h1>
@@ -18,6 +19,8 @@ export default function About(){
         </div>
 
       </div>
+    </div>
+
     </div>
   )
 }

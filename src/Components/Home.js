@@ -2,7 +2,8 @@ import "../styles/Home.css"
 import "../styles/Media.css"
 
 export default function Home() {
-  return <>
+  return ( 
+  <>
     <section className="nav_content">
       <div className="container">
         <div className="nav__info flex">
@@ -15,4 +16,5 @@ export default function Home() {
       </div>
     </section>
   </>
+  )
 }
