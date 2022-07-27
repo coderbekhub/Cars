@@ -1,3 +1,10 @@
+.about-info{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 100px 0;
+}
+
 .about-tittle{
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: bold;
@@ -5,7 +12,119 @@
   margin-bottom: 50px;
 }
 
+.about-info__cards{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  gap: 50px;
+}
+
+.about-info__cards-card{
+  max-width: 250px;
+  margin-bottom: 70px;
+}
+
 .about-info__cars-info{
   font-size: 24px;
   color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.card-image{
+  width: 100%;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.card-title{
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-info{
+  font-size: 14px;
+  color: #00000080;
+}
+
+.about-info__info{
+  max-width: 380px;
+}
+
+.about-info__txt{
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #000000;
+  line-height: 1.7;
+}
+
+.cars-btn{
+  width: 240px;
+  height: 57px;
+  align-items: center;
+  font-family: Montserrat Alternates, sans-serif;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  box-shadow: inset 0px 0px 0px 2px rgb(0 0 0 / 80%);
+  background: none #fff;
+  border-radius: 250px;
+  font-weight: 500;
+  padding: 20px 50px 19px;
+  margin-top: 50px;
+}
+
+.abuot-info__link{
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 960px) {
+  .about-info{
+    display: block;
+  }
+
+  .about-info__cars{
+    margin-bottom: 50px;
+  }
+
+  .about-tittle{
+    font-size: 30px;
+  }
+
+  .about-tittle{
+    margin-bottom: 20px;
+  }
+
+  .about-info__info{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 639px){
+  .about-info__cars{
+    display: block;
+    text-align: center;
+  }
+  .about-info__cards{
+    display: grid;
+    justify-content: center;
+  }
+  .about-info__cards-card{
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .card-image{
+    width: 100%;
+    height: auto;
+  }
+
+  .mb{
+    margin-bottom: 40px;
+  }
+ 
 }
