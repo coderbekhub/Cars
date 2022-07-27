@@ -1,0 +1,11 @@
+.about-tittle{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.about-info__cars-info{
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
