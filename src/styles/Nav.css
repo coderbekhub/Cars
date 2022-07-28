@@ -1,0 +1,50 @@
+.nav_bar {
+  position: relative;
+  display: flex;
+}
+
+.nav__list {
+  position: relative;
+  margin-right: 230px;
+}
+
+.nav__link {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  color: #ffffff66;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #fff;
+  transition: 1s;
+}
+
+.hero_title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300px;
+  margin-bottom: 15px;
+}
+
+.hero__sec-title {
+  font-size: 60px;
+  color: #fff;
+  pointer-events: auto;
+  letter-spacing: 1px;
+  font-weight: 900;
+  width: 500px;
+  margin-bottom: 60px;
+
+}
+
+.hero_text {
+  width: 340px;
+  pointer-events: auto;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.7;
+  font-style: 17px;
+  font-weight: 300;
+}
