@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Home/>
       <ColorSchemesExample/>
       <About/>
       <Cars/>

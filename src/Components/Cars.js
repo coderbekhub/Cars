@@ -18,7 +18,7 @@ export default function Cars(){
             <p className="cars-cards__info">Выпускается с 2018 года. Одна базовая комплектация.Двигатель 3.0, бензиновый. Привод полный. КПП: автоматическая.</p>
             <span className="card-price__info">Цена:</span><span className="cars-price__number">4 090 000 </span><span className="card-price__info">руб.</span>
             <div className="cars-card__btn">
-              <a className="cars-card__btn-link" href="">Test-drive</a>
+              <a className="cars-card__btn-link" href="#">Test-drive</a>
             </div>
           </div>
 
@@ -28,7 +28,7 @@ export default function Cars(){
             <p className="cars-cards__info">Выпускается с 2018 года. Одна базовая комплектация.Двигатель 3.0, бензиновый. Привод полный. КПП: автоматическая.</p>
             <span className="card-price__info">Цена:</span><span className="cars-price__number">4 090 000 </span><span className="card-price__info">руб.</span>
             <div className="cars-card__btn">
-              <a className="cars-card__btn-link" href="">Test-drive</a>
+              <a className="cars-card__btn-link" href="#">Test-drive</a>
             </div>
           </div>
 
@@ -38,7 +38,7 @@ export default function Cars(){
             <p className="cars-cards__info">Выпускается с 2018 года. Одна базовая комплектация.Двигатель 3.0, бензиновый. Привод полный. КПП: автоматическая.</p>
             <span className="card-price__info">Цена:</span><span className="cars-price__number">4 090 000 </span><span className="card-price__info">руб.</span>
             <div className="cars-card__btn">
-              <a className="cars-card__btn-link" href="">Test-drive</a>
+              <a className="cars-card__btn-link" href="#">Test-drive</a>
             </div>
           </div>
         </div>
