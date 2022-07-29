@@ -68,12 +68,45 @@
   text-align: center;
   text-decoration: none;
   font-size: 15px;
-  box-shadow: inset 0px 0px 0px 2px rgb(0 0 0 / 80%);
-  background: none #fff;
+  /* box-shadow: inset 0px 0px 0px 2px rgb(0 0 0 / 80%); */
+  /* background: none #fff; */
   border-radius: 250px;
-  font-weight: 500;
+  font-weight: bold;
   padding: 20px 50px 19px;
   margin-top: 50px;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #000;
+}
+
+.cars-btn:hover{
+  cursor: pointer;
+  color: #fff;
+  border-radius: 250px;
+
+}
+
+.cars-btn::before{
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #000;
+  border-radius: 250px;
+
+}
+
+.cars-btn:hover::before{
+  transition: 0.5 all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
 }
 
 .abuot-info__link{

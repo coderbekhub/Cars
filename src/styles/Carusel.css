@@ -1,0 +1,16 @@
+.carusel_car_img{
+  width: 100%;
+  height:700px;
+  margin: 0 auto;
+}
+
+.carusel{
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 600px){
+  .carusel_car_img{
+    height: auto;
+  }
+}
