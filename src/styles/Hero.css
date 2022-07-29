@@ -1,0 +1,47 @@
+.nav__list {
+  position: relative;
+  display: flex;
+}
+
+.nav__link {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  color: #ffffff66;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.nav__link:hover {
+  color: #fff;
+  transition: 1s;
+}
+
+.hero_title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300px;
+  margin-bottom: 15px;
+}
+
+.hero__sec-title {
+  font-size: 60px;
+  color: #fff;
+  pointer-events: auto;
+  letter-spacing: 1px;
+  font-weight: 900;
+  width: 500px;
+  margin-bottom: 60px;
+
+}
+
+.hero_text {
+  width: 340px;
+  pointer-events: auto;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.7;
+  font-style: 17px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
