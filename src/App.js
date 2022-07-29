@@ -1,7 +1,7 @@
 import About from './Components/About';
 import Home from './Components/Home';
+import Footer from './Components/Footer';
 import './App.css';
-import Burger from './Components/Burger';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <Home/>
       <About/>
-      {/* <Burger/> */}
+      <Footer/>
     </>
   );
 }

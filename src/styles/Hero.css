@@ -1,11 +1,6 @@
-.nav_bar {
-  position: relative;
-  display: flex;
-}
-
 .nav__list {
   position: relative;
-  margin-right: 230px;
+  display: flex;
 }
 
 .nav__link {
@@ -15,6 +10,7 @@
   color: #ffffff66;
   font-size: 15px;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 .nav__link:hover {
@@ -47,4 +43,5 @@
   line-height: 1.7;
   font-style: 17px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
