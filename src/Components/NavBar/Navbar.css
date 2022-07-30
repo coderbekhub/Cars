@@ -29,9 +29,9 @@ nav{
 }
 
 .nav__toggler div{
-  width: 3rem;
+  width: 2rem;
   height: 0.2rem;
-  margin: 1rem;
+  margin: 0.5rem;
   background-color: darkgray;
   transition: 0.3s ease-in;
 }
@@ -57,6 +57,16 @@ nav{
     transform: translateX(100%);
     transition: 0.5s ease-in;
   }
+
+  .nav__menu {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 515px) {
+  /* nav {
+    width: 100%;
+  } */
 }
 
 .nav__active{
@@ -64,8 +74,8 @@ nav{
 }
 
 .toggle .line1{
-  transform: rotate(-45deg) translate(-6px, -2px);
-  width: 3rem;
+  transform: rotate(-45deg) translate(-1px, -1px);
+  width: 2rem;
 }
 
 .toggle .line2{
@@ -73,6 +83,6 @@ nav{
 }
 
 .toggle .line3{
-  transform: rotate(45deg) translate(-13px, -9px);
-  width: 3rem;
+  transform: rotate(45deg) translate(-8px, -7px);
+  width: 2rem;
 }

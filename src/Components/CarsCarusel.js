@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import CaruselImg1 from '../img/carusel_img1.jpg'
-import CaruselImg2 from "../img/carusel_img2.jpg"
-import CaruselImg3 from "../img/carusel_img3.jpg"
-import '../styles/Carusel.css'
+import CaruselImg1 from '../img/carusel_img1.jpg';
+import CaruselImg2 from "../img/carusel_img2.jpg";
+import CaruselImg3 from "../img/carusel_img3.jpg";
+import '../styles/Carusel.css';
 
 
 export default function CarsCarusel() {

@@ -34,16 +34,16 @@ export default function Footer() {
             </p>
 
             <ul className="social_list">
-              <li><a href="#" className="social_list">
+              <li><a href="#" className="social_link">
                 <i class="fa-brands fa-instagram social_icon"></i>
               </a></li>
-              <li><a href="#" className="social_list">
+              <li><a href="#" className="social_link">
                 <i class="fa-brands fa-facebook social_icon"></i>
                 </a></li>
-              <li><a href="#" className="social_list">
+              <li><a href="#" className="social_link">
                 <i class='bx bxl-telegram social_icon'></i>
                 </a></li>
-                <li><a href="#" className="social_list">
+                <li><a href="#" className="social_link">
                 <i class='bx bxl-twitter social_icon'></i>
                 </a></li>
             </ul>

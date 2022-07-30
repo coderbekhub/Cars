@@ -18,6 +18,10 @@
   transition: 1s;
 }
 
+.hero_content {
+  margin-top: 140px;
+}
+
 .hero_title {
   color: #fff;
   font-size: 22px;
@@ -44,4 +48,37 @@
   font-style: 17px;
   font-weight: 300;
   margin-bottom: 20px;
+}
+
+
+@media (max-width: 960px) {
+  .hero__sec-title {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 730px) {
+  .hero__sec-title {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    line-height: 1.2;
+  }
+
+  .hero__sec-title{
+    width: auto;
+  }
+
+  .hero_text{
+    width: auto;
+  }
+
+  .hero_title{
+    width: auto;
+  }
 }
