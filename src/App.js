@@ -1,21 +1,21 @@
 import About from './Components/About';
 import Cars from './Components/Cars';
 import CarsCarusel from './Components/CarsCarusel';
-import ColorSchemesExample from './Components/ColorSchemesExapmle';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
 import './App.css';
+import Navbar from './Components/NavBar/Navbar';
+
 
 function App() {
 
   return (
     <>
+      <Navbar/>
       <Home/>
-      <ColorSchemesExample/>
       <About/>
       <Cars/>
       <CarsCarusel/>
-      <About/>
       <Footer/>
     </>
   );
