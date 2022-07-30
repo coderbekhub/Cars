@@ -44,7 +44,7 @@ export default function Cars(){
         </div>
 
         <div className="cars-wiew-button">
-          <a className="cars_wiew-btn" href="#">Wiew all</a>
+          <a className="cars_wiew-btn" href="#">View all</a>
         </div>
       </div>
     </section>

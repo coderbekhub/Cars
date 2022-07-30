@@ -59,6 +59,15 @@
   line-height: 1.7;
 }
 
+.abuot-info__link{
+  color: #000;
+  text-decoration: none;
+}
+
+.abuot-info__link:hover{
+  color: #000;
+}
+
 .cars-btn{
   width: 240px;
   height: 57px;
@@ -68,8 +77,6 @@
   text-align: center;
   text-decoration: none;
   font-size: 15px;
-  /* box-shadow: inset 0px 0px 0px 2px rgb(0 0 0 / 80%); */
-  /* background: none #fff; */
   border-radius: 250px;
   font-weight: bold;
   padding: 20px 50px 19px;
