@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Navbar.css"
 import { useState } from 'react';
+import logo from "../../img/logo.png"
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -18,22 +19,24 @@ function Navbar() {
   }
   return (
      <nav>
-        <h2>Logo brand</h2>
+        <a href="#">
+          <img className='site_logo' src={logo} alt="site logo" />
+        </a>
         <ul className={active}>
           <li className="nav__item">
             <a className='nav__link' href="#">Home</a>
           </li>
           <li className="nav__item">
-            <a className='nav__link' href="#">About</a>
+            <a className='nav__link' href="#about">About</a>
           </li>
           <li className="nav__item">
-            <a className='nav__link' href="#">Cars</a>
+            <a className='nav__link' href="#cars">Cars</a>
           </li>
           <li className="nav__item">
-            <a className='nav__link' href="#">Portfolio</a>
+            <a className='nav__link' href="#portfolio">Portfolio</a>
           </li>
           <li className="nav__item">
-            <a className='nav__link' href="#">Contact</a>
+            <a className='nav__link' href="#contact">Contact</a>
           </li>
         </ul>
         <div onClick={navToggler} className={toggleIcon}>

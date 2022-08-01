@@ -7,7 +7,6 @@
 
 .nav__link{
   text-decoration: none;
-  color: #fff;
 }
 
 nav{
@@ -18,7 +17,7 @@ nav{
   align-items: center;
   justify-content: space-around;
   height: 10vh;
-  background-color: #000;
+  background-color: #000000b2;
 }
 
 
@@ -39,6 +38,10 @@ nav{
 .nav__toggler{
   cursor: pointer;
   display: none;
+}
+
+.nav__link:checked {
+  color: #fff;
 }
 
 @media screen and (max-width: 768px){
@@ -85,4 +88,9 @@ nav{
 .toggle .line3{
   transform: rotate(45deg) translate(-8px, -7px);
   width: 2rem;
+}
+
+.site_logo {
+  width: 130px;
+  height: 130px;
 }

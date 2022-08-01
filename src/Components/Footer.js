@@ -3,7 +3,7 @@ import '../styles/Footer.css'
 export default function Footer() {
   return (
     <footer id='site_footer'>
-      <section className='footer_section'>
+      <section className='footer_section' id='contact'>
         <div className="container">
           <div className='footer_info'>
             <div>
@@ -34,16 +34,16 @@ export default function Footer() {
             </p>
 
             <ul className="social_list">
-              <li><a href="#" className="social_link">
+              <li><a href="https://www.instagram.com/godzillaa_dad/" target='blank' className="social_link">
                 <i class="fa-brands fa-instagram social_icon"></i>
               </a></li>
-              <li><a href="#" className="social_link">
+              <li><a href="#" className="social_link" target='blank'>
                 <i class="fa-brands fa-facebook social_icon"></i>
                 </a></li>
-              <li><a href="#" className="social_link">
+              <li><a href="#" className="social_link" target='blank'>
                 <i class='bx bxl-telegram social_icon'></i>
                 </a></li>
-                <li><a href="#" className="social_link">
+                <li><a href="#" className="social_link" target='blank'>
                 <i class='bx bxl-twitter social_icon'></i>
                 </a></li>
             </ul>

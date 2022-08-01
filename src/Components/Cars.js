@@ -2,6 +2,7 @@ import React from "react";
 import carsImage from "../img/cars-card__image.jpg"
 import carsImage2 from "../img/cars-card__image2.jpg"
 import '../styles/Cars.css'
+import View from "./View";    
 
 export default function Cars(){
   
@@ -44,7 +45,7 @@ export default function Cars(){
         </div>
 
         <div className="cars-wiew-button">
-          <a className="cars_wiew-btn" href="#">View all</a>
+          <a className="cars_wiew-btn" href='#' target='_blank'>View all</a>
         </div>
       </div>
     </section>

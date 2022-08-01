@@ -8,7 +8,7 @@ export default function About(){
 
   return(
     <div className="container">
-      <div className="about-info">
+      <div className="about-info" id="about">
         <div className="about-info__cars">
           <h1 className="about-tittle">Выберите то, что нужно</h1>
           <p className="about-info__cars-info">Наш каталог</p>

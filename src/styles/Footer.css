@@ -80,11 +80,6 @@ form input {
   font-weight: bold;
 }
 
-form input:hover {
-  border: 3px solid green;
-  transition: ease-in;
-}
-
 form textarea {
   width: 400px;
   margin: 0 auto;
