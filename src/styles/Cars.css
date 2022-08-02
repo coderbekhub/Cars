@@ -99,11 +99,13 @@
   margin-top: 40px;
   border-radius: 250px;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .cars_wiew-btn:hover{
   background-color: #fff;
   color: #000;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 720px){

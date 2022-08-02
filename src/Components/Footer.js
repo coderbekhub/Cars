@@ -12,7 +12,7 @@ export default function Footer() {
             </div>
 
             <form action='https://echo.htmlacademy.ru'>
-              <label>Please enter your <br /> details</label>
+              <label>Please enter your details</label>
               <input type="text" name='User Name:' required placeholder='Your Name'/> <br />
               <input type="Email" name='Email:' required placeholder='Your Email'/> <br />
               <textarea name="Message:" id="textarea" cols="30" rows="10" placeholder='Message'></textarea> <br />
