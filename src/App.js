@@ -5,8 +5,6 @@ import Home from './Components/Home';
 import Footer from './Components/Footer';
 import './App.css';
 import Navbar from './Components/NavBar/Navbar';
-import View from './Components/View';
-
 
 function App() {
 
@@ -18,7 +16,6 @@ function App() {
       <Cars/>
       <CarsCarusel/>
       <Footer/>
-      <View/>
     </>
   );
 }
