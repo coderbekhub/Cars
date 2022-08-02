@@ -8,7 +8,7 @@ import '../styles/Carusel.css';
 
 export default function CarsCarusel() {
   return (
-     <section className='carusel'>
+     <section className='carusel' id='carusel'>
       <div className="container">
         <Carousel>
           <Carousel.Item interval={1000} className="carusel-img">

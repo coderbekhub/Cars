@@ -33,7 +33,7 @@ function Navbar() {
             <a className='nav__link' href="#cars">Cars</a>
           </li>
           <li className="nav__item">
-            <a className='nav__link' href="#portfolio">Portfolio</a>
+            <a className='nav__link' href="#carusel">Carusel</a>
           </li>
           <li className="nav__item">
             <a className='nav__link' href="#contact">Contact</a>
