@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { useState } from 'react';
 import logo from "../../img/logo.png"
 
+
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
   const [toggleIcon, setToggleIcon] = useState("nav__toggler");
