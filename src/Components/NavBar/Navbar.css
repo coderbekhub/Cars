@@ -16,8 +16,10 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 10vh;
+  height: 12vh;
   background-color: #000;
+  opacity: 0.9;
+  box-shadow: 0 0 10px silver;
 }
 
 
@@ -91,6 +93,6 @@ nav{
 }
 
 .site_logo {
-  width: 90px;
-  height: 90px;
+  width: 130px;
+  height: 130px;
 }

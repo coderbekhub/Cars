@@ -6,11 +6,11 @@ export default function Home() {
     <>
     <section className="home_section">
       <div className="home__bgcolor">
-      <div className="container">
-        <div className="home__info">
+        <div className="container">
+          <div className="home__info">
+          </div>
         </div>
-      </div>
-    <Hero/>
+        <Hero/>
       </div>
     </section>
   </>

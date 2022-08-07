@@ -5,22 +5,6 @@ export default function Footer() {
     <footer id='site_footer'>
       <section className='footer_section' id='contact'>
         <div className="container">
-          <div className='footer_info'>
-            <div>
-              <h2 className='footer_title'>Footer Title</h2>
-              <p className='footer_text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ducimus nostrum beatae, natus nisi quidem, vero voluptatum possimus atque modi cum rem sed aut deserunt obcaecati? Repudiandae tempore nemo temporibus!</p>
-            </div>
-
-            <form action='https://echo.htmlacademy.ru'>
-              <label>Please enter your details</label>
-              <input type="text" name='User Name:' required placeholder='Your Name'/> <br />
-              <input type="Email" name='Email:' required placeholder='Your Email'/> <br />
-              <textarea name="Message:" id="textarea" cols="30" rows="10" placeholder='Message'></textarea> <br />
-              <input className='submit_btn' type="Submit" value='Submit'/>
-          </form>
-
-          </div>
-
           <div className='company_infos'>
             <p className="company_adress home_media_20px">
               <svg xmlns="http://www.w3.org/2000/svg" width="119" height="119" viewBox="0 0 119 119" id="svg-1">
